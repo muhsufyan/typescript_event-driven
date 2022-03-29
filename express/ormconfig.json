@@ -1,0 +1,15 @@
+
+{
+    "_comment":"file ini berisi data untuk config terhubung ke database",
+    "type": "mysql",
+    "host": "localhost",
+    "port":"3306",
+    "username":"root",
+    "password":"",
+    "database": "yt_node_main",
+    "entities": [
+        "src/entity/*.js"
+    ],
+    "synchronize": true,
+    "logging": false
+}
